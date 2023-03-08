@@ -1,0 +1,90 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap");
+
+// Fonts
+$fontA: "Noto Sans", sans-serif;
+$fontB: $fontA;
+
+// Dimensions
+$max: 100%;
+$half: calc($max / 2);
+$third: calc($max / 3);
+$quarter: calc($max / 4);
+$tenth: calc($max / 10);
+
+$pxUnit: 8px;
+$rmUnit: 0.8rem;
+$rm: 0.8rem;
+$px: 8px;
+
+// Spacings:
+// margins, line heights
+$m: calc($rm / 2);
+$m1: $rm;
+$m2: $rm * 2;
+$m3: $rm * 3;
+$m4: $rm * 4;
+$m5: $rm * 5;
+$m6: $rm * 6;
+$m7: $rm * 7;
+$m8: $rm * 8;
+$m9: $rm * 9;
+$m10: $rm * 10;
+
+// Spacings:
+// letters spacings
+$ls: 0.025rem;
+$ls1: 0.05rem;
+$ls2: 0.075rem;
+$ls3: 0.1rem;
+$ls4: 0.2rem;
+$ls5: 0.375rem;
+$ls6: 0.5rem;
+$ls7: 0.65rem;
+$ls8: 0.8rem;
+$ls9: 1rem;
+$ls10: 1.5rem;
+
+$gap: 15px;
+
+// Colors
+$white: #ffffff;
+//$drkWhite: #f1f4f7;
+$drkWhite: #e7ebee;
+$grey: #9898a6;
+$drkGrey: #575a60;
+$liteGrey: #bec9d5;
+$dark: #233249;
+$midBlue: #2c81fd;
+$blue: #3661e0;
+$liteBlue: #62aee4;
+$drkBlue: #1d2e49;
+$pink: #fd4e86;
+
+$beige: #faf0ca;
+$mainYellow: #f4d35e;
+$mainBlue: #0d3b66;
+$lightOrange: #ee964b;
+$darkOrange: #f95738;
+
+$darker: #1f2122;
+
+// Alerts & Notifications
+$primary: $blue;
+$secondary: #52637f;
+$success: #59ce28;
+$danger: #ef3749;
+$warning: #efd23f;
+$info: #14ad9f;
+$light: #dfe5ef;
+$ltDark: $drkBlue;
+
+// Alerts & Notifications
+//$vBlue: rgba(8, 95, 167, 1);
+$secondary: rgba(82, 99, 127, 1);
+$success: rgba(89, 206, 40, 1);
+$danger: rgba(239, 55, 73, 1);
+$warning: rgba(239, 210, 63, 1);
+$info: rgba(20, 173, 159, 1);
+$light: rgba(223, 229, 239, 1);
+$dark: rgba(44, 51, 59, 1);
